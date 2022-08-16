@@ -34,7 +34,7 @@
 
       if (isset($_SESSION['user_id'])) {
         $Sesion = true;
-        header('Location: /php-login');
+        header('Location: ../');
       }
 
       if (!empty($_POST['usernameLogin']) && !empty($_POST['passwordLogin'])) {
@@ -73,7 +73,7 @@
 
     <link rel="stylesheet" href="assets/css/styles_Login.css" />
     <title>Login</title>
-  </head>
+  </head> 
 
   <body style='background-image: url("assets/images/bg-Login.png");'>
     <main class="content">
